@@ -12,7 +12,7 @@ def parseXML(xmlFile):
    print('\n' + root[0][8][0].text + '\n')
    discussion = root[0][8][2].text
    sections = discussion.split('&&')
-   print(sections[0] + sections[1])
+   print(sections[0] + sections[1] + sections[2])
 
 def main():
 

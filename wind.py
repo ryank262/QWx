@@ -12,7 +12,7 @@ WIND_GST = 6
 def parseXML(xmlFile, compare, more):
 
    a = 0
-   b = 96
+   b = 95
    d = 15
 
    if(more):
